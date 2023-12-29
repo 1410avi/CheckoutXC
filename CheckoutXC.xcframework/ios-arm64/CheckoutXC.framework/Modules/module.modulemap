@@ -1,0 +1,11 @@
+framework module CheckoutXC {
+  umbrella header "CheckoutXC.h"
+  export *
+
+  module * { export * }
+}
+
+module CheckoutXC.Swift {
+  header "CheckoutXC-Swift.h"
+  requires objc
+}

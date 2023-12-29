@@ -1,0 +1,45 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios17.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CheckoutXC
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CashfreePG
+import CashfreePGCoreSDK
+import CashfreePGUISDK
+@_exported import CheckoutXC
+import Foundation
+import Razorpay
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class GQPaymentSDK : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var delegate: (any CheckoutXC.GQPaymentDelegate)?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) public var onSuccess: (([Swift.String : Any]) -> Swift.Void)?
+  @_Concurrency.MainActor(unsafe) public var onFailed: (([Swift.String : Any]) -> Swift.Void)?
+  @_Concurrency.MainActor(unsafe) public var onCancel: (([Swift.String : Any]) -> Swift.Void)?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public protocol GQPaymentDelegate {
+  func gqSuccessResponse(data: [Swift.String : Any]?)
+  func gqFailureResponse(data: [Swift.String : Any]?)
+  func gqCancelResponse(data: [Swift.String : Any]?)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class GQWebView : UIKit.UIViewController, CashfreePGCoreSDK.CFResponseDelegate, Razorpay.RazorpayPaymentCompletionProtocolWithData, WebKit.WKUIDelegate, WebKit.WKScriptMessageHandler, WebKit.WKNavigationDelegate {
+  @_Concurrency.MainActor(unsafe) @objc public func onPaymentError(_ code: Swift.Int32, description str: Swift.String, andData response: [Swift.AnyHashable : Any]?)
+  @_Concurrency.MainActor(unsafe) @objc public func onPaymentSuccess(_ payment_id: Swift.String, andData response: [Swift.AnyHashable : Any]?)
+  @_Concurrency.MainActor(unsafe) @objc public func onError(_ error: CashfreePGCoreSDK.CFErrorResponse, order_id: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc public func verifyPayment(order_id: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public var delegate: (any CheckoutXC.GQPaymentDelegate)?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func loadView()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
