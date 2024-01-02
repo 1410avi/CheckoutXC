@@ -1,5 +1,5 @@
 //
-//  CheckoutXC.podspec.swift
+//  CheckoutXC.podspec
 //  CheckoutXC
 //
 //  Created by Avinash Soni on 02/01/24.
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     s.description  = "your description"
     s.homepage     = "https://github.com/1410avi/CheckoutXC.git"
     s.license = { :type => "MIT", :file => "LICENSE" }
-    s.author             = { "Avinash Soni" => "avinash.soni@grayquest.com" }
+s.author             = { "1410avi" => "avinash.soni@grayquest.com" }
     s.source       = { :git => "https://github.com/1410avi/CheckoutXC.git", :branch => "master", :tag => "#{s.version}" }
     s.vendored_frameworks = "CheckoutXC.xcframework"
     s.platform = :ios
