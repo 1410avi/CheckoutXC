@@ -7,38 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E10EAEF12B440A5800DAB766 /* CheckoutXC.podspec in Sources */ = {isa = PBXBuildFile; fileRef = E10EAEF02B440A5800DAB766 /* CheckoutXC.podspec */; };
 		E1ACD09D2B3D782700B390B3 /* CheckoutXC.h in Headers */ = {isa = PBXBuildFile; fileRef = E1ACD09C2B3D782700B390B3 /* CheckoutXC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1ACD0A42B3D78C200B390B3 /* GQPaymentSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ACD0A32B3D78C200B390B3 /* GQPaymentSDK.swift */; };
 		E1ACD0A62B3D78E600B390B3 /* WebDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ACD0A52B3D78E600B390B3 /* WebDelegate.swift */; };
 		E1ACD0A82B3D790700B390B3 /* GQPaymentDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ACD0A72B3D790700B390B3 /* GQPaymentDelegate.swift */; };
 		E1ACD0AA2B3D792500B390B3 /* GQWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ACD0A92B3D792500B390B3 /* GQWebView.swift */; };
-		E1ACD1112B3EBBEE00B390B3 /* CashfreeAnalyticsSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACD0AB2B3D7A4700B390B3 /* CashfreeAnalyticsSDK.xcframework */; };
-		E1ACD1122B3EBBEE00B390B3 /* CashfreeAnalyticsSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACD0AB2B3D7A4700B390B3 /* CashfreeAnalyticsSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E1ACD1142B3EBBF000B390B3 /* CashfreePG.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACD0AD2B3D7A4700B390B3 /* CashfreePG.xcframework */; };
-		E1ACD1152B3EBBF000B390B3 /* CashfreePG.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACD0AD2B3D7A4700B390B3 /* CashfreePG.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E1ACD1162B3EBBF100B390B3 /* CashfreePGCoreSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACD0AF2B3D7A4700B390B3 /* CashfreePGCoreSDK.xcframework */; };
-		E1ACD1172B3EBBF100B390B3 /* CashfreePGCoreSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACD0AF2B3D7A4700B390B3 /* CashfreePGCoreSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E1ACD1182B3EBBF300B390B3 /* CashfreePGUISDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACD0B12B3D7A4700B390B3 /* CashfreePGUISDK.xcframework */; };
-		E1ACD1192B3EBBF300B390B3 /* CashfreePGUISDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACD0B12B3D7A4700B390B3 /* CashfreePGUISDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E1ACD11A2B3EBBF400B390B3 /* CFNetworkSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACD0B32B3D7A4700B390B3 /* CFNetworkSDK.xcframework */; };
-		E1ACD11B2B3EBBF400B390B3 /* CFNetworkSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACD0B32B3D7A4700B390B3 /* CFNetworkSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E1ACD11C2B3EBBF600B390B3 /* Razorpay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACD0B72B3D7A4700B390B3 /* Razorpay.xcframework */; };
-		E1ACD11D2B3EBBF600B390B3 /* Razorpay.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACD0B72B3D7A4700B390B3 /* Razorpay.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E1EFCBAB2B3EF2B1007A3D65 /* Razorpay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACD0B72B3D7A4700B390B3 /* Razorpay.xcframework */; };
+		E1EFCBAC2B3EF2B1007A3D65 /* Razorpay.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACD0B72B3D7A4700B390B3 /* Razorpay.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E1EFCBAE2B3EF2B5007A3D65 /* CashfreeAnalyticsSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACD0AB2B3D7A4700B390B3 /* CashfreeAnalyticsSDK.xcframework */; };
+		E1EFCBAF2B3EF2B5007A3D65 /* CashfreeAnalyticsSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACD0AB2B3D7A4700B390B3 /* CashfreeAnalyticsSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E1EFCBB02B3EF2B5007A3D65 /* CashfreePG.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACD0AD2B3D7A4700B390B3 /* CashfreePG.xcframework */; };
+		E1EFCBB12B3EF2B5007A3D65 /* CashfreePG.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACD0AD2B3D7A4700B390B3 /* CashfreePG.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E1EFCBB22B3EF2B5007A3D65 /* CashfreePGCoreSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACD0AF2B3D7A4700B390B3 /* CashfreePGCoreSDK.xcframework */; };
+		E1EFCBB32B3EF2B5007A3D65 /* CashfreePGCoreSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACD0AF2B3D7A4700B390B3 /* CashfreePGCoreSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E1EFCBB42B3EF2B5007A3D65 /* CashfreePGUISDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACD0B12B3D7A4700B390B3 /* CashfreePGUISDK.xcframework */; };
+		E1EFCBB52B3EF2B6007A3D65 /* CashfreePGUISDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACD0B12B3D7A4700B390B3 /* CashfreePGUISDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E1EFCBB62B3EF2B6007A3D65 /* CFNetworkSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACD0B32B3D7A4700B390B3 /* CFNetworkSDK.xcframework */; };
+		E1EFCBB72B3EF2B6007A3D65 /* CFNetworkSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACD0B32B3D7A4700B390B3 /* CFNetworkSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E1ACD1132B3EBBEE00B390B3 /* Embed Frameworks */ = {
+		E1EFCBAD2B3EF2B2007A3D65 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E1ACD1122B3EBBEE00B390B3 /* CashfreeAnalyticsSDK.xcframework in Embed Frameworks */,
-				E1ACD11D2B3EBBF600B390B3 /* Razorpay.xcframework in Embed Frameworks */,
-				E1ACD11B2B3EBBF400B390B3 /* CFNetworkSDK.xcframework in Embed Frameworks */,
-				E1ACD1172B3EBBF100B390B3 /* CashfreePGCoreSDK.xcframework in Embed Frameworks */,
-				E1ACD1192B3EBBF300B390B3 /* CashfreePGUISDK.xcframework in Embed Frameworks */,
-				E1ACD1152B3EBBF000B390B3 /* CashfreePG.xcframework in Embed Frameworks */,
+				E1EFCBAF2B3EF2B5007A3D65 /* CashfreeAnalyticsSDK.xcframework in Embed Frameworks */,
+				E1EFCBAC2B3EF2B1007A3D65 /* Razorpay.xcframework in Embed Frameworks */,
+				E1EFCBB12B3EF2B5007A3D65 /* CashfreePG.xcframework in Embed Frameworks */,
+				E1EFCBB52B3EF2B6007A3D65 /* CashfreePGUISDK.xcframework in Embed Frameworks */,
+				E1EFCBB72B3EF2B6007A3D65 /* CFNetworkSDK.xcframework in Embed Frameworks */,
+				E1EFCBB32B3EF2B5007A3D65 /* CashfreePGCoreSDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,7 +49,7 @@
 /* Begin PBXFileReference section */
 		13C5D183F640FCE74E6DE61A /* Pods-CheckoutXC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckoutXC.release.xcconfig"; path = "Target Support Files/Pods-CheckoutXC/Pods-CheckoutXC.release.xcconfig"; sourceTree = "<group>"; };
 		157364DCA8A8A873BE2E5853 /* Pods-CheckoutXC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckoutXC.debug.xcconfig"; path = "Target Support Files/Pods-CheckoutXC/Pods-CheckoutXC.debug.xcconfig"; sourceTree = "<group>"; };
-		D0C746B05729DB631577800B /* Pods_CheckoutXC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CheckoutXC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E10EAEF02B440A5800DAB766 /* CheckoutXC.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CheckoutXC.podspec; sourceTree = "<group>"; };
 		E1ACD0992B3D782700B390B3 /* CheckoutXC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CheckoutXC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1ACD09C2B3D782700B390B3 /* CheckoutXC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckoutXC.h; sourceTree = "<group>"; };
 		E1ACD0A32B3D78C200B390B3 /* GQPaymentSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GQPaymentSDK.swift; sourceTree = "<group>"; };
@@ -60,8 +61,8 @@
 		E1ACD0AF2B3D7A4700B390B3 /* CashfreePGCoreSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CashfreePGCoreSDK.xcframework; path = Pods/CashfreePGCoreSDK/CashfreePGCoreSDK.xcframework; sourceTree = "<group>"; };
 		E1ACD0B12B3D7A4700B390B3 /* CashfreePGUISDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CashfreePGUISDK.xcframework; path = Pods/CashfreePGUISDK/CashfreePGUISDK.xcframework; sourceTree = "<group>"; };
 		E1ACD0B32B3D7A4700B390B3 /* CFNetworkSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CFNetworkSDK.xcframework; path = Pods/CFNetworkSDK/CFNetworkSDK.xcframework; sourceTree = "<group>"; };
-		E1ACD0B52B3D7A4700B390B3 /* Pods_CheckoutXC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_CheckoutXC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1ACD0B72B3D7A4700B390B3 /* Razorpay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Razorpay.xcframework; path = "Pods/razorpay-pod/Pod/Razorpay.xcframework"; sourceTree = "<group>"; };
+		E1ACD1562B3EC96B00B390B3 /* CheckoutXC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = CheckoutXC.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,12 +70,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1ACD1162B3EBBF100B390B3 /* CashfreePGCoreSDK.xcframework in Frameworks */,
-				E1ACD11C2B3EBBF600B390B3 /* Razorpay.xcframework in Frameworks */,
-				E1ACD1182B3EBBF300B390B3 /* CashfreePGUISDK.xcframework in Frameworks */,
-				E1ACD1112B3EBBEE00B390B3 /* CashfreeAnalyticsSDK.xcframework in Frameworks */,
-				E1ACD11A2B3EBBF400B390B3 /* CFNetworkSDK.xcframework in Frameworks */,
-				E1ACD1142B3EBBF000B390B3 /* CashfreePG.xcframework in Frameworks */,
+				E1EFCBAE2B3EF2B5007A3D65 /* CashfreeAnalyticsSDK.xcframework in Frameworks */,
+				E1EFCBAB2B3EF2B1007A3D65 /* Razorpay.xcframework in Frameworks */,
+				E1EFCBB02B3EF2B5007A3D65 /* CashfreePG.xcframework in Frameworks */,
+				E1EFCBB42B3EF2B5007A3D65 /* CashfreePGUISDK.xcframework in Frameworks */,
+				E1EFCBB62B3EF2B6007A3D65 /* CFNetworkSDK.xcframework in Frameworks */,
+				E1EFCBB22B3EF2B5007A3D65 /* CashfreePGCoreSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,14 +94,13 @@
 		B8885B8C4B6786E6DDB52F57 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E1ACD1562B3EC96B00B390B3 /* CheckoutXC.xcframework */,
 				E1ACD0AB2B3D7A4700B390B3 /* CashfreeAnalyticsSDK.xcframework */,
 				E1ACD0AD2B3D7A4700B390B3 /* CashfreePG.xcframework */,
 				E1ACD0AF2B3D7A4700B390B3 /* CashfreePGCoreSDK.xcframework */,
 				E1ACD0B12B3D7A4700B390B3 /* CashfreePGUISDK.xcframework */,
 				E1ACD0B32B3D7A4700B390B3 /* CFNetworkSDK.xcframework */,
-				E1ACD0B52B3D7A4700B390B3 /* Pods_CheckoutXC.framework */,
 				E1ACD0B72B3D7A4700B390B3 /* Razorpay.xcframework */,
-				D0C746B05729DB631577800B /* Pods_CheckoutXC.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -108,6 +108,7 @@
 		E1ACD08F2B3D782700B390B3 = {
 			isa = PBXGroup;
 			children = (
+				E10EAEF02B440A5800DAB766 /* CheckoutXC.podspec */,
 				E1ACD09B2B3D782700B390B3 /* CheckoutXC */,
 				E1ACD09A2B3D782700B390B3 /* Products */,
 				A8A6C7BEA7933B14946E0775 /* Pods */,
@@ -158,7 +159,7 @@
 				E1ACD0952B3D782700B390B3 /* Sources */,
 				E1ACD0962B3D782700B390B3 /* Frameworks */,
 				E1ACD0972B3D782700B390B3 /* Resources */,
-				E1ACD1132B3EBBEE00B390B3 /* Embed Frameworks */,
+				E1EFCBAD2B3EF2B2007A3D65 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -242,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E10EAEF12B440A5800DAB766 /* CheckoutXC.podspec in Sources */,
 				E1ACD0A42B3D78C200B390B3 /* GQPaymentSDK.swift in Sources */,
 				E1ACD0A62B3D78E600B390B3 /* WebDelegate.swift in Sources */,
 				E1ACD0A82B3D790700B390B3 /* GQPaymentDelegate.swift in Sources */,
@@ -306,7 +308,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -367,10 +369,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
@@ -411,6 +414,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +470,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -479,6 +484,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.grayquest.CheckoutXC;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = NO;
