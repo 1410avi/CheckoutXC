@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
     s.homepage     = "https://github.com/1410avi/CheckoutXC.git"
     s.license = { :type => "MIT", :file => "LICENSE" }
     s.author             = { "Avinash Soni" => "avinash.soni@grayquest.com" }
-    s.source       = { :git => "https://github.com/1410avi/CheckoutXC.git", :branch => "main", :tag => "#{s.version}" }
+    s.source       = { :git => "https://github.com/1410avi/CheckoutXC.git", :branch => "master", :tag => "#{s.version}" }
     s.vendored_frameworks = "CheckoutXC.xcframework"
     s.platform = :ios
 //    s.swift_version = "5.7"
